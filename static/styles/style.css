@@ -13,3 +13,53 @@
 }
 
 ol {list-style: circle;}
+
+.GDDR6 {
+    display: inline;;
+}
+
+.Pet {
+    text-align: center;
+
+}
+
+.Kulmik {
+    display: inline;
+}
+
+.ROZA {
+    text-align: center;
+}
+
+.Ildus {
+    text-align: center;
+}
+
+.Hach {
+    display: inline;
+}
+
+div>img {
+    width: 300px;
+}
+
+.Vidlo {
+    background-color: rgb(189, 189, 189);
+    display: inline-block;
+    text-align: center;
+
+}
+
+.PCI {
+    text-align: right;
+    margin-right: 40px;
+}
+
+.onephoto>img {
+width: 500px;
+}
+
+.onephoto {
+    display: block;
+    text-align: right;
+}
