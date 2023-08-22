@@ -63,7 +63,8 @@ float: left;
 }
 
 .onephoto {
-    display: inline-block;
+    float: left;
+    
 }
 
 .noandsuper>img {
@@ -97,7 +98,22 @@ float: left;
 }
 
 .mqe {
-    text-align: center;
-    margin-top: 90px;
+    text-align: left;
+    margin-top: 340px;
     
 }
+
+ .olclass {
+    border-style: solid;
+    display: inline-block;
+    text-align: left;
+    
+    
+
+ }
+
+div>h2 {
+    text-align: center;
+}
+
+
