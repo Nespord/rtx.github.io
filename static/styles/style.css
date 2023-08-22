@@ -27,12 +27,10 @@ ol {list-style: circle;}
     display: inline;
 }
 
-.ROZA {
-    text-align: center;
-}
 
 .Ildus {
     text-align: center;
+    margin-top: 180px;
 }
 
 .Hach {
@@ -44,22 +42,62 @@ div>img {
 }
 
 .Vidlo {
-    background-color: rgb(189, 189, 189);
+    
     display: inline-block;
     text-align: center;
 
 }
 
 .PCI {
-    text-align: right;
+    border-style: solid;
+    float: right;
     margin-right: 40px;
+    border-width: 0.5px;
+    padding: 10px;
+    background-color: darkgrey;
 }
 
 .onephoto>img {
 width: 500px;
+float: left;
 }
 
 .onephoto {
-    display: block;
-    text-align: right;
+    display: inline-block;
+}
+
+.noandsuper>img {
+    width: 520px;
+}
+
+.noandsuper {
+    float: right;
+    margin-left: 30px;
+}
+
+
+.Super>img {
+    width: 350px;
+}
+
+.Super {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.peta {
+    text-align: center;
+}
+
+.gbtop {
+    margin-top: 120px;
+
+}
+
+.mqe {
+    text-align: center;
+    margin-top: 90px;
+    
 }
