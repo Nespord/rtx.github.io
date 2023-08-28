@@ -158,32 +158,79 @@ div>h2 {
 /* Навигационная панель */
 
 
-.Panel {
+
+.nav-conteiner {
     display: flex;
-    justify-content: space-between;    
-    background-color: rgb(192, 192, 192);
+    justify-content: space-between;
+    background-color: rgb(206, 201, 201);
+    
 }
 
-.Panel>nav>ol {
+
+
+.nav-conteiner>nav>ol {
     list-style: none;
     display: flex;
-    padding: 0;
-    margin: 0;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    
 }
 
-.Panel>nav>ol>li {
+
+
+.nav-conteiner>nav>ol>li>a {
+    display: block;
+    padding: 10px;
     border-style: solid;
     border-width: 0.5px;
-    padding: 10px;
+    
 }
 
-.Panel>nav>ol>input {
-    margin-left: 20px;
-    margin-right: 20px;
+.nav-conteiner>nav>ol>input {
+    margin-left: 30px;
 }
 
 @media (max-width: 900px) {
-    .Panel {flex-direction: column;}
+    .nav-conteiner {flex-direction: column;}
 }
 
+
+/* Панель */
+
+
+.bigboss {
+    display: flex;
+    justify-content: center;
+}
+
+.bigboss>.panel>ol {
+    list-style: none;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    padding-bottom: 10px;
+}
+
+.panel {
+    background-color: aquamarine;
+    width: 16%;
+  
+}
+
+.miniboss {
+    width: 82%;
+}
+
+
+
+.miniboss>.vse {
+    margin-left: 15px;
+}
+
+.bigboss>.panel {
+    float: right;
+}
+
+.panel>img {
+    width: 213px
+}
